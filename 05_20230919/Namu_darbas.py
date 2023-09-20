@@ -10,7 +10,7 @@ my_string = "G'mar chatima tovah. A good final sealing."
 
 """
 2 Uždavinys
-Taikydami range funkciją ir fir ciklą išveskite šio sąrašo narius:
+Taikydami range funkciją ir fir ciklą išveskite šio sąrašo narius (reverser() funcijos nenaudokite):
 1. originalia eilės tvarka
 2. originalia eilės tvarka pirmus 10 narių
 3. originalia eilės tvarka paskutinius 10 narių
