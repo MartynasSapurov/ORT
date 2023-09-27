@@ -28,7 +28,7 @@ print(f"Sio saraso tipas – {type(my_dictionary)}")
 for item in my_dictionary:
     print(f"{item} {my_dictionary[item]}")
 
-#For ciklas ir iteraotriai, svarbu suprasti, kad for ciklas iš eilės praina visas iteratoruojmas reikšmes
+#For ciklas ir itertaotriai, svarbu suprasti, kad for ciklas iš eilės praina visas iteratoruojmas reikšmes
 print("#"*40)
 
 my_tuple = ("Pirmas", "Antras", "Trecias", "Ketvirtas")
