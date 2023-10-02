@@ -2,6 +2,18 @@
 #Parašykite programą, kuri nustatytų, ar duotas skaičius n yra pirminis (turi tik du daliklius: vienetą ir patį save).
 #Pasitikrinkite. Jei n = 7 , tai atsakymas: 7 yra pirminis. Jei n = 15 , tai atsakymas: 15 yra sudetinis
 
+print("Iveskite skaiciu")
+sk = int(input())
+count = 0
+for i in range(1, sk+1):
+    if not(sk % i):
+        count = count + 1
+
+if count > 2:
+    print(f"{sk} yra sudetinis")
+else:
+    print(f"{sk} yra pirminis")
+
 #4 Uzd.
 Miške auga medžiai, kuriuose bitės kuria savo avilius. Meškiukas žino, jog kur aviliai – ten ir medus. Viena bėda –
 aviliai dažnai kabo aukštai, o kopdamas meškiukas devynis prakaitus išlieja. Užkopdamas ar nusileisdamas 1 metrą
