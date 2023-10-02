@@ -15,6 +15,7 @@ else:
     print(f"{sk} yra pirminis")
 
 #4 Uzd.
+"""
 Miške auga medžiai, kuriuose bitės kuria savo avilius. Meškiukas žino, jog kur aviliai – ten ir medus. Viena bėda –
 aviliai dažnai kabo aukštai, o kopdamas meškiukas devynis prakaitus išlieja. Užkopdamas ar nusileisdamas 1 metrą
 meškiukas numeta 1 kilogramą svorio. Tačiau pasiekęs avilį, jis priauga tiek svorio,kiek suvalgo medaus. O suvalgo
@@ -26,3 +27,4 @@ kiekį tame avilyje. Net jei avilio aukštis 1, meškiukui teks kopti ir leistis
 
 Pasitikrinkite. Jei s = 100, n = 5, o skaičiai aprašantys medžius yra tokie: 9 ir 16; 7 ir 15; 5 ir 14; 6 ir 12; 2 ir 10, tai
 atsakymas: 109 kg
+"""
