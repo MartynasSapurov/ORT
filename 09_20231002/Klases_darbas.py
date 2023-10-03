@@ -54,8 +54,8 @@ for item in(skaiciu_poros):
 
 print("Something", "Something more", sep=',',end='')
 
-a_dict = {}
+skaiciu_poros = {}
 
-a_dict["key"] = "value"
+skaiciu_poros[9] = 16
 
-print(a_dict)
+print(skaiciu_poros)
