@@ -51,3 +51,6 @@ skaiciu_poros = {9 : 16, 7: 15, 5 : 14, 6 : 12, 2 : 10}
 for item in(skaiciu_poros):
     print(f"{item} {skaiciu_poros[item]}")
     print("*"*40)
+
+print("Something", "Something more", sep=',',end='')
+
