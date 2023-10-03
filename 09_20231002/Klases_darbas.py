@@ -46,4 +46,7 @@ print(s,"Kg" )
 
 #Su žodynu
 
-skaiciu_poroos = {9 : 16, 7: 15, 5 : 14, 6 : 12, 2 : 10}
+skaiciu_poros = {9 : 16, 7: 15, 5 : 14, 6 : 12, 2 : 10}
+
+for item in(skaiciu_poroos):
+    print(item)
