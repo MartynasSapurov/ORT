@@ -31,3 +31,15 @@ atsakymas: 109 kg
 a, b = input().split(',')
 print(a)
 print(b)
+
+s = int(input("Iveskite s: "))
+n = int(input("Iveskite n: "))
+
+for i in range(1, n+1):
+    print("Iveskite", i , "medzio duomenys per ' ir ' zodi: ")
+    a, b = input().split("ir")
+    s = (s - (int(a) * 2)) + int(b)
+    a = 0
+    b = 0
+
+print(s,"Kg" )
