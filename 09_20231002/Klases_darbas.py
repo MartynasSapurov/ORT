@@ -54,3 +54,8 @@ for item in(skaiciu_poros):
 
 print("Something", "Something more", sep=',',end='')
 
+a_dict = {}
+
+a_dict["key"] = "value"
+
+print(a_dict)
