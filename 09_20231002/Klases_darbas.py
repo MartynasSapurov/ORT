@@ -43,3 +43,7 @@ for i in range(1, n+1):
     b = 0
 
 print(s,"Kg" )
+
+//Su žodynu
+
+skaiciu_poroos = {9 : 16, 7: 15, 5 : 14, 6 : 12, 2 : 10}
