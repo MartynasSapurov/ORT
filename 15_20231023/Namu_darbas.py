@@ -18,3 +18,8 @@ Rezultatas pasitikrinimui:
     2773: 'Nepomniachtchi I.'
 }
 """
+
+best_players = {value: f"{item.split()[0][:-1]} {item.split()[1][0]}." for item, value in chess_players.items() if value > 2000}
+
+print(chess_players)
+print(best_players)
