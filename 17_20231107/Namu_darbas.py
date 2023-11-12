@@ -15,7 +15,7 @@
 # Mark:
 # b'S\xc4\x85\xc5\xa1lav\xc5\xb3 s\xc4\x85\xc5\xa1lavynas'
 
-#Donat:
+#Daniel:
 # b'\xc5\xbdie\xc5\xbeirb\xc5\xb3 s\xc4\x85ranka'
 
 #Iškoduokite šią eilute taikydami numatytąją kodavimo sistemą (codec)
