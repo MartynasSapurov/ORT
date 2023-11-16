@@ -8,7 +8,7 @@ print("*"*40)
 #With file open konstruktorius
 
 with open('test.txt', 'rt') as file:
-    print(file.read())
+    print(file.readline(1))
 
 print("*"*40)
 
