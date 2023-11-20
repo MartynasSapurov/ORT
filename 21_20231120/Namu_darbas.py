@@ -18,14 +18,14 @@
 #būtų skaičiuojami tik pilni žodžiai
 
 #7. Užduotis
-#parašykite programą kuri suskaičiuotų kiek faile "file.txt" yra žodžių užsibaigiančių raide "e"
+#parašykite programą kuri suskaičiuotų kiek faile "file2.txt" yra žodžių užsibaigiančių raide "e"
 
 #8. Užduotis
-#parašykite programą kuri suskaičiuotų kiek faile "file.txt" yra didžiųjų raidžių
+#parašykite programą kuri suskaičiuotų kiek faile "fil2.txt" yra didžiųjų raidžių
 
 #9. Užduotis
-#parašykite programą kuri nuskaitytų duomenis if "file2.txt" ir i6trintu visus $ ženklus
+#parašykite programą kuri nuskaitytų duomenis if "file3.txt" ir ištrintu visus $ ženklus
 
 #10. Užduotis
-#parašykite programą kuri nuskaituytų duomenis iš failo "file2.txt" ir nekeičiant failo atspausdintų duomenis
-#pakeičiant visus simbolius "oo" į "ū"
+#parašykite programą kuri nuskaituytų duomenis iš failo "file4txt" ir nekeičiant failo atspausdintų duomenis
+#pakeičiant visus simbolius "xwz" į "h"
