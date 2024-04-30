@@ -7,3 +7,19 @@ my_upper_pets_4 = list(map(lambda my_pets: my_pets[:3].upper(), my_pets))
 print(my_upper_pets_4)
 
 #Pakeiskite lambda funkciją, paprasta funkcija
+
+
+
+#################################################################################
+
+scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65, 75, 99, 12]
+
+
+def my_func(x):
+    return x > 75
+
+answer = list(filter(my_func, scores))
+
+print(answer)
+
+#Parašykite su lambda funkcija
