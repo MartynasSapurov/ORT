@@ -23,3 +23,6 @@ answer = list(filter(my_func, scores))
 print(answer)
 
 #Parašykite su lambda funkcija
+#Taikydami map funkcija vardus saraše prasidedančius raide "a" pakeiskite visomis didžiosiomis raidėmis, o visus kitus užrašykite atbulai.
+
+my_pets = ['alfred', 'tabitha', 'william', 'arla']
