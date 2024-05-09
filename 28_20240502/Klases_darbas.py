@@ -1,14 +1,8 @@
 #1
-#list generator
-my_list = [1, 2, 3, 4, 5]
-
-my_new_list = [item for item in my_list]
-print(my_new_list)
-
 Parašykite lambda funkcija kuri nuskaitytų duotą sąrašą ir jei pirmoji žodžio sąraše raide = 'a' arba 'A' grąžintų
 pasutinius tris simbolius didžiosiomis raidėmis, jei pirmoji radė nelygi 'a' arba 'A' grąžintų pirus tris simbolius mažosiomis raidėmis.
 
-['Albert', 'bob', 'Robert', 'aliona', 'Algirdas', 'alicija', 'UZDUOTIS', 'pirmSiS']
+['Albert', 'bob', 'Robert', 'aliona', 'Algirdas', 'alicija', 'UZDUOTIS', 'pirmaSiS']
 
 #3
 Duotas s1rašas sudarytas iš skirtingų tipų duomenų.
