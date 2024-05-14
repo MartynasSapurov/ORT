@@ -1,2 +1,6 @@
+#Įsidekite ir išsibandykite Pandas biblioteką
+#https://pandas.pydata.org/docs/index.html
+#Pasitikrinimui įvykdykite šią programą
+
 import pandas as pd
 print(pd.__version__)
