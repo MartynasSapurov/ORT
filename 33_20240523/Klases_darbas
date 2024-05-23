@@ -1,4 +1,4 @@
-#1. Duotas žodynas sąrašas 
+#1. Duotas sąrašas 
 noah_animals = [
     "LiOn",
     "TiGeR",
@@ -23,4 +23,4 @@ noah_animals = [
 ]
 #pritaikę map ir lambda funkcijas sukurkite naują sąrašą kuriame visi lyginių laukelių gyvynai bus pateikti didžiosiomis o nelyginių mažosiomis raidėmis.
 
-2.
+2. 
