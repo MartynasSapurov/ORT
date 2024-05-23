@@ -1,0 +1,26 @@
+#1. Duotas žodynas sąrašas 
+noah_animals = [
+    "LiOn",
+    "TiGeR",
+    "ElEpHaNt",
+    "GiRaFfE",
+    "ZeBrA",
+    "KaNgArOo",
+    "PaNdA",
+    "KoAlA",
+    "RhInOcErOs",
+    "HiPpOpOtAmUs",
+    "BeAr",
+    "WoLf",
+    "LeOpArD",
+    "ChEeTaH",
+    "BuFfAlO",
+    "DeEr",
+    "CaMeL",
+    "OsTrIcH",
+    "PeNgUiN",
+    "FlAmInGo"
+]
+#pritaikę map ir lambda funkcijas sukurkite naują sąrašą kuriame visi lyginių laukelių gyvynai bus pateikti didžiosiomis o nelyginių mažosiomis raidėmis.
+
+2.
