@@ -29,3 +29,13 @@ jewish_names = [
     "Samuel", "aMoshe", "Benjamin", "aLeah", "Isaac", "aHava", "Joseph", "aShira",
     "Daniel", "aYakov", "Nathan", "aRiel"
 ]
+
+#3. Taikydami map ir lambda  funkcijas sperkelkite į naują sąrašą tik moksleivius kurių vidurkis didesnis arba lygus 8
+students = [
+    ("John", 8.8),
+    ("Emma", 7.2),
+    ("Olivia", 8.8),
+    ("Liam", 9.5),
+    ("Noah", 7.8),
+    ("Sophia", 9.2)
+] 
