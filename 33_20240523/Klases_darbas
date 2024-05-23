@@ -23,4 +23,9 @@ noah_animals = [
 ]
 #pritaikę map ir lambda funkcijas sukurkite naują sąrašą kuriame visi lyginių laukelių gyvynai bus pateikti didžiosiomis o nelyginių mažosiomis raidėmis.
 
-2. 
+#2. Taikydami filter funkciją sukurkite naują sarašą kuriame būtų pateikiami tik vardai prasidedantys "a" arba "A" raidėmis.
+jewish_names = [
+    "David", "Avraham", "Eli", "ari", "Jacob", "aTalia", "Noah", "aLiza",
+    "Samuel", "aMoshe", "Benjamin", "aLeah", "Isaac", "aHava", "Joseph", "aShira",
+    "Daniel", "aYakov", "Nathan", "aRiel"
+]
