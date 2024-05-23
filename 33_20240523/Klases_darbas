@@ -30,7 +30,7 @@ jewish_names = [
     "Daniel", "aYakov", "Nathan", "aRiel"
 ]
 
-#3. Taikydami map ir lambda  funkcijas sperkelkite į naują sąrašą tik moksleivius kurių vidurkis didesnis arba lygus 8
+#3. Taikydami map ir lambda  funkcijas perkelkite į naują sąrašą tik moksleivius kurių vidurkis didesnis arba lygus 8
 students = [
     ("John", 8.8),
     ("Emma", 7.2),
