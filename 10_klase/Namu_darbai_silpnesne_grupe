@@ -1,1 +1,51 @@
+Taikydami for ciklus atlikite šias užduotis
 
+1. Atspausdinkite visų skaičių nuo a iki n (imtinai) kvadratus.
+
+Įvestis (įvedama klaviatūra)
+Du sveiki skaičiai a, n (−100 ≤ a, n ≤ 100, a<n).
+
+Išvestis
+Kvadratines reikšmes išvesti skirtingose eilutėse.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+2 5          4
+             9
+            16
+            25
+
+2. Apskaičiuokite sumą skaičių nuo a iki n (imtinai).
+
+Įvestis (įvedama klaviatūra)
+Du sveiki skaičiai a, n (−100 ≤ a, n ≤ 100, a<n).
+
+Išvestis
+Išvesti atsakymą.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+2 5        14
+
+3. Žinomi kvadratino trinario y = Ax^2 + BX + C koeficientai A,B,C. Sukurkite programą, skaičiuojančią kvadratinio trinario reikšmes, kai x kinta nuo -3 iki 3 žingsniu lygiu 1.
+
+Įvestis (įvedama klaviatūra)
+Trys sveiki skaičiai A, B, C (−100 ≤ A, B, C ≤ 100).
+
+Išvestis
+Išvesti kaip nurodyta pavyzdyje.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+2 5 1      Kai x=-3, tai y=4
+           Kai x=-2, tai y=-1
+           Kai x=-1, tai y=-2
+           Kai x=0, tai y=1
+           Kai x=1, tai y=8
+           Kai x=2, tai y=19
+           Kai x=3, tai y=34
+
+Namų darbus būtina pateikti per tamo iki 06.04
