@@ -1,1 +1,49 @@
+Taikydami for while atlikite šias užduotis
 
+1. Apskaičiuokite skaičiaus n skaitmenų kiekį.
+
+Įvestis (įvedama klaviatūra)
+Natūralus skaičius n (1 ≤ n ≤ 1018).
+
+Išvestis
+Išveskite skaitmenų kiekį.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+10          2
+
+123456      6
+
+2. Petriukas nori tapti didžiausiu lokiu ar bent jau tapti didesnis nei jo brolis Algelis.
+Šiuo metu Petriukas ir Algelis sveria atitinkamai po a ir b. Garantuojama, kad Petriuko svoris yra mažesnis arba lygus jo brolio svoriui.
+Petriukas daug valgo ir kiekvienais metais jo svoris trigubėja, o Algelio - dvigubėja.
+Po kiek metų Petrtiukas pirmą kartą taps griežtai sunkesnis nei Algelis?
+
+Įvestis (įvedama klaviatūra)
+Du natūralūs skaitmenys a ir b (1 ≤ a, b ≤ 10).
+
+Išvestis
+Spausdinti metų skaičių, po kurių pirmą kartą Petriukas bus griežtai sunkesnis už Algelį.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+4 7        2
+4 9        3
+
+3. Pirmasis sekos narys yra x, o visi sekantys generuojami pagal taisyklę:
+jei dabartinis narys x yra lyginis, tai sekantis narys bus x/2, priešingu atveju bus 3x+1. Parašykite programą, kuri sugeneruotų seką, kol bus gautas 1.
+
+Įvestis (įvedama klaviatūra)
+Natūralus skaičius x (1 ≤ x ≤ 100).
+
+Išvestis
+Išveskite visus sekos elementus atskirtus kableliais.
+
+Atsakymų lentelė pasitikrinimui:
+
+Įvestis	Išvestis
+10       10,5,16,8,4,2,1
+
+Namų darbus būtina pateikti per tamo iki 06.04
