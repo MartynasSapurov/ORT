@@ -37,8 +37,8 @@ Kintamojo "tekstas" vertė = "Labas rytas", tipas = "<class 'str'>", o adresas =
 
 sk_2 = int(input("Įveskite antrąjį skaičių: "))
 print(f"Jūsų įvestų skaičių suma: {sk_1}+{sk_2}={sk_1+sk_2}")
-
-Sraigė per valandą nušliaužia z žiogo šuolių. Žiogas vienu šuoliu nušoka c centimetrų. Kiek centimetrų
+"""
+1.Sraigė per valandą nušliaužia z žiogo šuolių. Žiogas vienu šuoliu nušoka c centimetrų. Kiek centimetrų
 sraigė nušliauš per v valandų? Parašykite programą šiam uždaviniui spręsti.
 Pasitikrinkite. Kai z = 2, c = 2, v = 8, tai turi būti spausdinama 32.
 2. Laivynas iš k laivų, kurių kiekvienas plukdė po n maišų prieskonių, pakliuvo į audrą, kurioje m laivų
@@ -50,3 +50,4 @@ Pasitikrinkite. Kai n = 75, m = 2 , tai degtukai sudegs per 2 val. ir 30 min.
 4. Laikrodis rodo x valandų ir y minučių. Parašykite programą, kuri apskaičiuotų, kiek minučių minut ir
 kiek sekundžių sec prabėgo nuo vidurnakčio.
 Pasitikrinkite. Įvedę x = 3 ir y = 5, turėtumėte gauti: minut = 185, sec = 11100.
+"""
