@@ -34,13 +34,16 @@ finally:
 
 print(my_line)
 """
+"""
 #my_list = []
 with open('U1.txt', 'rt') as file:
     n = int(file.readline())
     my_list = file.readline().split()
     my_list = [int(item) for item in my_list]
     print(my_list)
+"""
 
+"""
 my_new_list = []
 
 my_other_list = [1, 5, 7, 8]
@@ -49,3 +52,27 @@ my_new_list.append(my_other_list)
 my_other_list = [8, 7, 5, 1]
 my_new_list.append(my_other_list)
 print(my_new_list[0][1], my_new_list[1][1], sep="\n")
+"""
+"""
+my_list = []
+with open('U1.txt', 'rt') as file:
+    n = int(file.readline())
+    for item in range(n):
+        my_list.append([int(x) for x in(file.readline().split())])
+
+    print(my_list)
+"""
+
+"""
+for item in range(n):
+    print(f"Žaidėjo numeris: {my_list[item][0]}, jis pataikė: {my_list[item][1]} baudinių, {my_list[item][3]}"
+          f" dvitaškių ir {my_list[item][3]} tritaškių")
+"""
+
+
+with open('U1.txt', 'rt') as file:
+    my_list = [[int(item) for item in items.strip().split()] for items in file.readlines()[1:]]
+    print(my_list)
+    #my_list = file.readline().split()
+    #my_list = [int(item) for item in my_list]
+    #print(my_list)
