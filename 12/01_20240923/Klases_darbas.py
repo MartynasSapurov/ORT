@@ -40,3 +40,12 @@ with open('U1.txt', 'rt') as file:
     my_list = file.readline().split()
     my_list = [int(item) for item in my_list]
     print(my_list)
+
+my_new_list = []
+
+my_other_list = [1, 5, 7, 8]
+
+my_new_list.append(my_other_list)
+my_other_list = [8, 7, 5, 1]
+my_new_list.append(my_other_list)
+print(my_new_list[0][1], my_new_list[1][1], sep="\n")
