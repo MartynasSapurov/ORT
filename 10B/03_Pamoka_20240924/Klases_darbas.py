@@ -19,6 +19,12 @@ Pasitikrinkite. Kai k = 15, n = 8000 , m = 3, tai pavyko parvežti 96000 maišų
 3. Per kiek laiko tamsiame urve paklydęs turistas vieną po kito sudegins n degtukų, jei kiekvienas iš jų dega m
 minučių? Atsakymą išreikškite valandomis ir minutėmis.
 Pasitikrinkite. Kai n = 75, m = 2 , tai degtukai sudegs per 2 val. ir 30 min.
+minutes = 105
+
+valandos = int(minutes/60)
+minutes = minutes%60
+
+print(valandos, minutes)
 
 4. Laikrodis rodo x valandų ir y minučių. Parašykite programą, kuri apskaičiuotų, kiek minučių minut ir
 kiek sekundžių sec prabėgo nuo vidurnakčio.
