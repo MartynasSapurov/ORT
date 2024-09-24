@@ -16,5 +16,5 @@ with open('U1.txt', 'rt') as file:
     print(line)
 """
 #PPateikti du duomenų išrinkimo iš failo algoritmai, pasirinkite bet kurį. Pasinaudoję gautu dvimačiu masyvu (dviejų lygmenų sąrašu) sukurkite
-#naują sąrašą arba žodyną kuriame būtų pateikiama sumini statistika apie kiekvieną žadėją: žaidėjo numeris(kartojasi tik vieną kartą ir suminiai duomenys apie
+#naują sąrašą arba žodyną kuriame būtų pateikiama suminė statistika apie kiekvieną žadėją: žaidėjo numeris(kartojasi tik vieną kartą ir suminiai duomenys apie
 #visas rungtynes, taip pat pridėkite papildomą laukelį kuriame nurodomas sužaistų rungtynių skaičius.
