@@ -4,6 +4,14 @@ sraigė nušliauš per v valandų? Parašykite programą šiam uždaviniui sprę
 Pasitikrinkite. Kai z = 2, c = 2, v = 8, tai turi būti spausdinama 32.
 """
 
+z = int(input("Įveskite žiogo šuolių skaičių per valandą: "))
+c = int(input("Įveskite žiogo šuolių ilgį, cm: "))
+v = int(input("Sraigės šliaužimo trukmę: "))
+
+result = z*c*v
+
+print(f"Sraigė nušliauš {result} cm")
+
 """
 2. Laivynas iš k laivų, kurių kiekvienas plukdė po n maišų prieskonių, pakliuvo į audrą, kurioje m laivų
 nuskendo, o kiti sėkmingai pasiekė kelionės tikslą. Kiek maišų prieskonių pavyko parvežti?
