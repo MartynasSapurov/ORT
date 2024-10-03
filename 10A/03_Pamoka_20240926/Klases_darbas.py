@@ -21,7 +21,10 @@ Pasitikrinkite. Kai k = 15, n = 8000 , m = 3, tai pavyko parvežti 96000 maišų
 minučių? Atsakymą išreikškite valandomis ir minutėmis.
 Pasitikrinkite. Kai n = 75, m = 2 , tai degtukai sudegs per 2 val. ir 30 min.
 minutes = 105
-
+"""
+val = int(n / 60)
+minut = n % 60
+"""
 4. Laikrodis rodo x valandų ir y minučių. Parašykite programą, kuri apskaičiuotų, kiek minučių minut ir
 kiek sekundžių sec prabėgo nuo vidurnakčio.
 Pasitikrinkite. Įvedę x = 3 ir y = 5, turėtumėte gauti: minut = 185, sec = 11100.
