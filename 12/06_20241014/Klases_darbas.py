@@ -15,4 +15,6 @@
 #3. Duotas sąrašas sudarytas iš skirtingo tipo elementų, taikydami map() funkciją kiekvieną int tipo elemntą pakeičiame į str tipą, kitų tipų elemntus paliekame nepakitusiais.
 my_list = [1, 7, 8 , 15, 25, "45ik", "Mark", "Dina", 1.12, 1.45]
 
-#4. Sugeneruokite 20 atsitiktinių skąičių nuo 1 iki 10 skaičių sąrašas, paskaičiuokite kiek kartyų jame pasikartoja kikevienas skaičius.
+#4. Sugeneruokite 20 atsitiktinių skąičių nuo 1 iki 10 skaičių sąrašas, paskaičiuokite kiek kartyų jame pasikartoja kikevienas skaičius, skaičiavimui panaudokite funkciją.
+# 
+#
