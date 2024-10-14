@@ -16,5 +16,5 @@
 my_list = [1, 7, 8 , 15, 25, "45ik", "Mark", "Dina", 1.12, 1.45]
 
 #4. Sugeneruokite 20 atsitiktinių skąičių nuo 1 iki 10 skaičių sąrašas, paskaičiuokite kiek kartyų jame pasikartoja kikevienas skaičius, skaičiavimui panaudokite funkciją.
-# 
+#Rezultatus įrašykite į žodyną kurio indeksas skaičius, o reikšmė, kiek kartų jis kartojas
 #
