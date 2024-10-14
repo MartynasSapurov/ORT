@@ -13,4 +13,5 @@
 "quiCk", "shaDow", "roAd", "appLe", "wiDget"]
 
 #3. Duotas sąrašas sudarytas iš skirtingo tipo elementų, taikydami map() funkciją kiekvieną int tipo elemntą pakeičiame į str tipą, kitų tipų elemntus paliekame nepakitusiais.
-my_lisy = [1, 7, 8 , 15, 25, "45ik", "Mark", "Dina", 1.12, 1.45]
+my_list = [1, 7, 8 , 15, 25, "45ik", "Mark", "Dina", 1.12, 1.45]
+
