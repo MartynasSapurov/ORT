@@ -7,3 +7,18 @@
 #Jei amžius didesnis už 18 ir mažesnis nei 100 paraškite "Ko peigeidaujate "Vardas""
 #Visais kiatis atvejais parašykite ""Vardas" jūs meluojate, jums negali būti tiek metų"
 
+Sprendimas
+name = input("Įveskite savo vardą\n")
+age = input("Įveskite skaičių\n")
+if not age.isdigit():
+    print("Įvesti netinkami duomenys")
+elif int(age) == 0:
+    print("Įvesti netinkami duomenys")
+elif int(age) < 10:
+    print(f"Labas jaunikaiti {name}")
+elif int(age) <= 18:
+    print(f"Kaip sekasi {name}")
+elif int(age) <100:
+    print(f"Ko peigeidaujate {age}")
+else:
+    print(f"{age} jūs meluojate, jums negali būti tiek metų")
