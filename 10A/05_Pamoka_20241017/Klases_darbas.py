@@ -6,6 +6,10 @@
 #Jei amžius didesnis arba lygus 10 ir mažesnis arba lygus 18 parašykite "Kaip sekasi {Vardas}"
 #Jei amžius didesnis už 18 ir mažesnis nei 100 paraškite "Ko peigeidaujate {Vardas}"
 #Visais kiatis atvejais parašykite "{Vardas} jūs meluojate, jums negali būti tiek metų"
+
 a = input("Įveskite skaičių\n")
 
-print(a.isdigit())
+if not a.isdigit():
+    print("Įvedėte neskaičių")
+else:
+    print("Įvedėte skaičių")
