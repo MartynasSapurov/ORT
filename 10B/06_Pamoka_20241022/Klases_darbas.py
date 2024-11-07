@@ -19,14 +19,6 @@ for i in x:
 *
 *
 """
-
-n = int(input("Įveskite snaigių skaičių: "))
-print(n)
-
-ribos = range(n)
-
-for i in ribos:
-    print("*")
     
 #2. Marse savaitę sudaro n dienų. Lyginėmis savaitės dienomis sninga, nelyginėmis - šlapdriba. Atspausdinkite savaitės orų tendenciją.
 
