@@ -1,4 +1,4 @@
-Sukurkite pirminę klasę turinčią šiuos atributus:
+Sukurkite klasę turinčią šiuos atributus:
 
 brand, age, cоlor, mark ir weight.
 
