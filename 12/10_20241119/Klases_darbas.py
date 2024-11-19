@@ -1,6 +1,6 @@
-Sukurkite pirminę klasę turinčią šiuos atribustus:
+Sukurkite pirminę klasę turinčią šiuos atributus:
 
-brand, age, cоlor, mark и weight.
+brand, age, cоlor, mark ir weight.
 
 Ir šiuos metodus:
 move, birthday и stop.
