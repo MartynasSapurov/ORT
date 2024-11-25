@@ -10,3 +10,4 @@ print(time_delta)
 
 #Sukurkit klasę kurioje bus vienas atributas ir vienas metodas, atributas yra tuščias sąrašas į kurį
 #objekto kūrimo metu įrašomas nerūšiuotas sąrašas, o metodas surūšiuoja sąrašą burbulo rušiavimo algoritmu
+#palyginkite algotitmų veikimo trukmę
