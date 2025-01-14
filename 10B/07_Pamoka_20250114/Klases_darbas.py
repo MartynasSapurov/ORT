@@ -1,5 +1,5 @@
-1.
-Marse savaitę sudaro n dienų. Lyginėmis savaitės dienomis sninga, nelyginėmis - šlapdriba. Atspausdinkite sunumeruotą savaitės orų tendenciją.
+"""
+1. Marse savaitę sudaro n dienų. Lyginėmis savaitės dienomis sninga, nelyginėmis - šlapdriba. Atspausdinkite sunumeruotą savaitės orų tendenciją.
 Įvestis:
 Natūralus skaičius n(1 <= n <= 100).
 Išvęstis:
@@ -12,3 +12,7 @@ Išvedama
 3 *0
 4 **
 5 *0
+"""
+"""
+2. 
+"""
