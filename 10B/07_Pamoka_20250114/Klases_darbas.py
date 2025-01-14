@@ -1,3 +1,6 @@
+a, b = input().split()
+a = int(a)
+b = int(b) 
 """
 1. Marse savaitę sudaro n dienų. Lyginėmis savaitės dienomis sninga, nelyginėmis - šlapdriba. Atspausdinkite sunumeruotą savaitės orų tendenciją.
 Įvestis:
