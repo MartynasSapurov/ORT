@@ -1,7 +1,7 @@
 #Duotas failas U1.txt, jame pateikta informacija apie krepšininkus, pirmoje eilutėje nurodoma, kiek yra įrašų, visose
 #kitose pirmas skaičius žaidėjoi numeris, antras skaičius nurodod kiek eilutėje įrašų apie žaidėją, vėliau seka
 #žaistas laikas (teigiami skaičiai), praleistas laikas (neigiami kaičiai). Visus skaičius nuskaitykite, kaip int
-#1. Perskaitykite iš failo pirmąjį įrašą ir atspausdinkiyte ekrane įrašų skaičių
+#1. Perskaitykite iš failo pirmąją eilutę ir atspausdinkiyte ekrane įrašų skaičių
 
 #2.Nuskaitykite tik zaideju numerius į sąrašą zaidejai ir jį surūšiuokite
 
