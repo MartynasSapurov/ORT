@@ -1,2 +1,5 @@
+suma_lyginiu=0
+suma_nelyginiu=0
+
 for _ in range(10):
-    int(input())
+    if int(input())
