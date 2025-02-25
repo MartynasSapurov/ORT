@@ -4,7 +4,6 @@ def isvestis(sandauga):
     else:
         print(f"Sandauga: {sandauga}")
 
-
 def daugyba(sk1, sk2):
     return sk1*sk2
 
@@ -15,13 +14,15 @@ def ivestis(pranesimas, bandymu_limitas=3, panaudotas_sk=None):
             if sk!=panaudotas_sk:
                 return sk
             else:
-                print(f"Skaičius jau buvo įvestas! Bandymų liko: {bandymu_limitas-1}")
+                print(f"Skaičius jau buvo įvestas! Bandymų liko: {i-1}")
         else:
-            print(f"Klaida: Skaičius turi būti teigiamas ir nelyginis! Bandymų liko: {bandymu_limitas-1}")
+            print(f"Klaida: Skaičius turi būti teigiamas ir nelyginis! Bandymų liko: {i-1}")
     print("Viršytas bandymų limitas! Programa baigiama")
     return None
 
-sk1 = ivestis("Įveskite pirmą teigiamą skaičių: ")
+sk1=ivestis("Įveskite pirmąjį nelyginį skaičių ")
 if sk1 != None:
-    sk2 = ivestis("Įveskite antrą teigiamą skaičių: ", panaudotas_sk=sk1)
+    sk2=ivestis("Įveskite antrąjį nelyginį skaičių ", panaudotas_sk=sk1)
+
+if sk1 != None and sk2 != None:
     isvestis(daugyba(sk1, sk2))
