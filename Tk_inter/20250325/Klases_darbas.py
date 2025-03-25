@@ -1,6 +1,14 @@
 import tkinter as tk
+
 window = tk.Tk()
-label = tk.Label(window, text="Labas pasauli!", bg="blue")
+window.title("Lango pavadinimas")
+window.geometry("300x300+700+500")
+
+label = tk.Label(window,
+                 text="Labas pasauli!",
+                 bg="blue",
+                 width=50,
+)
 
 button = tk.Button(window,
     text="Paspausk mane",
