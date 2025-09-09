@@ -38,12 +38,21 @@ print(b, id(b))
 b=False
 print(b, id(b))
 """
-
+"""
 a = input("Įveskite skaičių")
 
-a.
+
 if a.isdigit():
     a=int(a)
     print(a, type(a))
 else:
     print("Įvestas ne skaičius")
+
+"""
+
+while True:
+    vardas = input("Įveskite vardą\n")
+    if vardas.isalpha():
+        break
+    print("Įvedėte ne raides")
+print(vardas.capitalize())
