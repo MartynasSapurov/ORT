@@ -1,6 +1,6 @@
 """
 1 Uždavinys
-Netaikydami ciklų (naudokite inetvalo operatorių [:]) išveskite pateiktą eilutę:
+Netaikydami ciklų (naudokite inertvalo operatorių [:]) išveskite pateiktą eilutę:
 1. išveskitę į ekraną originalią eilutę
 2. išvesdami kas antrą simbolį
 3. išvesdami simbolius priešinga eilės tvarka
