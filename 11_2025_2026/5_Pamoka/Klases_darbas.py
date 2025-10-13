@@ -1,55 +1,52 @@
-import random
+my_dict = {"Vienas": "One", "Du": "Two", "Trys": "Three", "Keturi": "Four", "Penki": "Five",
+           "Sesi": "Six", "Septyni": "Seven", "Astuoni": "Eight", "Devyni": "Nine"}
+print("*"*40)
+print(my_dict)
 
-my_number_list = []
+print("*"*40)
+for item in my_dict:
+    print(item)
 
-for _ in range(20):
-    my_number_list.append(random.randint(1, 99))
+print("*"*40)
+for item in my_dict.keys():
+    print(item)
 
-print(my_number_list)
+print("*"*40)
+for key, value in my_dict.items():
+    print(key, value)
 
-for i in range(len(my_number_list)):
-    my_number_list[i] += 5
 
-print(my_number_list)
 
-my_string_list = []
-for _ in range(20):
-    my_string_list.append(str(random.randint(1, 99)))
+#Sukeičiame vertes ir indeksus vietomis
+my_new_dict = {value: key for key, value in my_dict.items()}
+print("*"*40)
+print()
 
-print(my_string_list)
+print(my_dict)
+print(my_new_dict)
+
+#Duotas žodynas, sukurkite naują žodyną jo pagrindu pasitelkdami sąrašų (žodynų) generatorių
+chess_players = {
+    "Carlsen, Magnus": 1865,
+    "Firouzja, Alireza": 2804,
+    "Ding, Liren": 2799,
+    "Caruana, Fabiano": 1792,
+    "Nepomniachtchi, Ian": 2773
+}
 """
-for i in range(len(my_string_list)):
-    my_string_list[i] = int(my_string_list[i])
+1. Naujajame žodyne sukesikite indeksus ir vertes vietomis
+2. Į naująjį žodyną įtraukite tik tuos įrašus kurių vertės originaliame žodyne didesnės nei 2000
+3. Naujojo žodyno vertės turi susidėti ne iš pavardės ir vardo, atskirtų kalbleliais, o iš pavardės ir pirmosios vardo raidės.
 
-print(my_string_list)
+Rezultatas pasitikrinimui:
+{
+    2804: 'Firouzja A.', 
+    2799: 'Ding L.', 
+    2773: 'Nepomniachtchi I.'
+}
 """
-"""Sąrašu generatoriai"""
 
-#my_generated_list  = [random.randint(1, 99) for i in range(20)]
-my_generated_list  = [item for item in my_string_list[::-1]]
-print(my_generated_list)
-print(40*"*")
-print(my_string_list)
-print(my_generated_list)
+best_players = {value: f"{item.split()[0][:-1]} {item.split()[1][0]}." for item, value in chess_players.items() if value > 2000}
 
-n = int(input())
-
-"""
-if n % 2 == 0:
-    print("Lyginis")
-else:
-    print("Nelyginis")
-"""
-print("Lyginis") if n % 2 == 0 else print("Nelyginis")
-
-#Savaranki6ka užduotis
-#Sukurkite 30 atsitiktinių skaičių, tarp 1 ir 150, sąrašą, pasitelkę sąrašu generatorių.
-#Pasitelkę sąrašų generatorių perkelkite į naują sąrašą tik skaičius didesnius nei 80
-
-my_task_list  = [random.randint(1, 150) for i in range(30)]
-
-print(my_task_list)
-
-my_new_task_list  = [item for item in my_task_list if item > 80]
-
-print(my_new_task_list)
+print(chess_players)
+print(best_players)
