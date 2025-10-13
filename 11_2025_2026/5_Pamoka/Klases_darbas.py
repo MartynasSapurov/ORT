@@ -43,6 +43,6 @@ else:
 print("Lyginis") if n % 2 == 0 else print("Nelyginis")
 
 #Savaranki6ka užduotis
-#Sukurkite 30 atsitiktinių skaičių, tarp 1 ir 150, sąrašą, pasitelkę.
-#asirelkę sąrašų generatorių perkelkite į naują sąčrašą tik skaičius didesnius nei 80
+#Sukurkite 30 atsitiktinių skaičių, tarp 1 ir 150, sąrašą, pasitelkę sąrašu generatorių.
+#Pasitelkę sąrašų generatorių perkelkite į naują sąrašą tik skaičius didesnius nei 80
 
