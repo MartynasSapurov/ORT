@@ -46,3 +46,10 @@ print("Lyginis") if n % 2 == 0 else print("Nelyginis")
 #Sukurkite 30 atsitiktinių skaičių, tarp 1 ir 150, sąrašą, pasitelkę sąrašu generatorių.
 #Pasitelkę sąrašų generatorių perkelkite į naują sąrašą tik skaičius didesnius nei 80
 
+my_task_list  = [random.randint(1, 150) for i in range(30)]
+
+print(my_task_list)
+
+my_new_task_list  = [item for item in my_task_list if item > 80]
+
+print(my_new_task_list)
