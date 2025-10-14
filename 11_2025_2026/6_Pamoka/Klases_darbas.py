@@ -4,3 +4,9 @@
 #Pasitelkę sąrašų generatorių sukurkite naują sąrašą my_new_list į kurį įtraukite visus įrašus iš my_list, net tik simbolius nuo 3 iki paskutinio.  
 #Visui įrašai pateikiami didžiosiomis raidėmis
 #Rezultatą atspausdinkite
+my_string = "Eagle Sunglasse"
+my_plit_list = my_string.split()
+print(my_plit_list)
+
+#2 Užduotis
+Pasitelkę sąrašū generatorių sukurkite 20 atsitiktinių skaičių nuo 1 iki 9 sąrašąpavadinimu my_number_list 
