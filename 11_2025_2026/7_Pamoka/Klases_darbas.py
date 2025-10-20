@@ -45,3 +45,7 @@ print(my_dict)
 txt = "50800"
 x = txt.isdigit()
 print(x)
+
+my_list = input("Įveskite vardus\n").split()
+my_list = [int(item) if item.isdigit() else item for item in my_list]
+print(my_list)
