@@ -41,3 +41,7 @@ print(my_dict)
 #Savarankiška užduotis
 #Įveskite 10 tarpu atskirtų verčių, skaičių ir raidžių ir įrašykite į sąrašą.
 #Pasitelkę sąrašų generatorių patikrinkite ar elemntas skaičius, jei taip kobertuokite į int
+
+txt = "50800"
+x = txt.isdigit()
+print(x)
