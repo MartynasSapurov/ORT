@@ -1,6 +1,6 @@
 #Duotas gyvūnų sąrašas
 biblical_animals = [
-    "Aquila',
+    "Aquila",
     "Behemoth",
     "Cattle",
     "Camel",
