@@ -23,5 +23,16 @@ try:
 finally:
     file.close()
 
-with open('failas_Kajaus.txt', 'r') as file:
+duomenys = []
+with open('Data.txt', 'r') as file:
     n = int(file.readline())
+    for _ in range(n):
+        duomenys.append([int(item) for item in file.readline().split()])
+
+print(duomenys)
+
+#Savarankiška užduotis
+#Atspausdinkite 4 pirmojo nario elementą
+#Atspausdinkite kas antrą antrojo nario elementą atvikščiai
+#Pakelkite kvadratu kas antrą 3 nario elemntą
+#Atspausdinkite pirmajį ir paskutinį 4 ketvirto nario elementus
