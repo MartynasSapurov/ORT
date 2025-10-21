@@ -22,3 +22,6 @@ try:
     print(type(a))
 finally:
     file.close()
+
+with open('failas_Kajaus.txt', 'r') as file:
+    n = int(file.readline())
