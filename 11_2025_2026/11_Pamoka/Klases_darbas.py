@@ -8,7 +8,7 @@ e = b'S\xc4\x85\xc5\xa1lav\xc5\xb3 s\xc4\x85\xc5\xa1lavynas'
 f = b'\xc5\xbdie\xc5\xbeirb\xc5\xb3 s\xc4\x85ranka'
 
 utf = [a, b, c, d, e, f]
-str = []
+str_ = []
 
 #Iškoduokite šią eilute taikydami numatytąją kodavimo sistemą (codec)
 #Tuomet gautą rezultatą užkoduokite taikydami Latin4 kodavimo sistemą (codec)
