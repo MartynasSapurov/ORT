@@ -29,3 +29,5 @@ print(utf)
 str_ = [item.decode() for item in utf]
 print(str_)
 #Taikydami sąrašų generatorių užpildykite žodyną, latin_dict, kuriame raktas yra kodo ilgis, o vertė kodas Latin4
+latin_dict = {len(item.encode('Latin4')): item.encode('Latin4') for item in str_}
+print(latin_dict)
