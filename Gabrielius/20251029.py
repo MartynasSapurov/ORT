@@ -35,3 +35,15 @@ elif v == 4:
     dal(a, b)
 else:
     klaida()
+
+
+"""
+Duota n ilgio skaičių seka. Raskite paskutinių trijų sekos elementų vidurkį. Išveskite atsakymą palikdami tris
+skaitmenis po kablelio.
+"""
+
+n = int(input("Įveskite sekos ilgį: "))
+seka = list(map(int, input("Įveskite seką\n").split()[:n]))
+average = (seka[n-3]+ seka[n-2] +seka[n-1]) / 3
+
+print(f"{average:.3f}")
