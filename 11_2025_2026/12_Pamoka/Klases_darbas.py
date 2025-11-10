@@ -14,3 +14,6 @@ with open("data.csv", mode='w', encoding='utf8', newline='') as file: #Atsidarom
     file_writer.writerow(name_of_fields) #Įrašome antraštinę eilutę
     for item in duomenys:
         file_writer.writerow(item) #Įrašome pirmają duomenų eilutę
+"""
+Savarankiškai sukurkite duomenų lentelę kurią sudarytų 5 stulpeliai apie muzikos įrašus ir 6 eilutės ir eksportuokite į csv failą pavadinimu duomenys, pasitikrinkite atsidarę failą Excelyje
+"""
