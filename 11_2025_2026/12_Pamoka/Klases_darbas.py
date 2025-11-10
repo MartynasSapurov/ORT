@@ -15,14 +15,13 @@ with open("data.csv", mode='w', encoding='utf8', newline='') as file: #Atsidarom
     for item in duomenys:
         file_writer.writerow(item) #Įrašome pirmają duomenų eilutę
 
-
 #CSV duomenų nuskaitymas
 with open("data.csv", encoding='utf8') as file: #Atsidarome failą skaitymui
     data = csv.reader(file) #Susikuriame csv failo skaitymo konstruktorių
     print(40*"*")
-    for item in list(data)[1::]:
-        print(item)
+    csv_data = [item for item in list(data)[1::]] 
 
+print(csv_data)
 """
 Tik duomenis iš csv failo be antraštės įkelkite į sąrašą pavadinimu csv_data ir jį atspausdinkite
 """
