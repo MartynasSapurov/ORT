@@ -14,6 +14,16 @@ with open("data.csv", mode='w', encoding='utf8', newline='') as file: #Atsidarom
     file_writer.writerow(name_of_fields) #Įrašome antraštinę eilutę
     for item in duomenys:
         file_writer.writerow(item) #Įrašome pirmają duomenų eilutę
+
+
+#CSV duomenų nuskaitymas
+with open("data.csv", encoding='utf8') as file: #Atsidarome failą skaitymui
+    data = csv.reader(file) #Susikuriame csv failo skaitymo konstruktorių
+    print(40*"*")
+    for item in list(data)[1::]:
+        print(item)
+
 """
-Savarankiškai sukurkite duomenų lentelę kurią sudarytų 5 stulpeliai apie muzikos įrašus ir 6 eilutės ir eksportuokite į csv failą pavadinimu duomenys, pasitikrinkite atsidarę failą Excelyje
+Tik duomenis iš csv failo be antraštės įkelkite į sąrašą pavadinimu csv_data ir jį atspausdinkite
 """
+
