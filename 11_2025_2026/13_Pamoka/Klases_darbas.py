@@ -2,7 +2,7 @@
 #
 #
 #1 Nuskaitykite duomeniš failo Animals.csv
-#Jeigu gyvūnas yra tyras pakewiskite Amount į 17, jeigu ne 2
+#Jeigu gyvūnas yra tyras pakewiskite Amount į 14, jeigu ne 2
 #Atsakymą įrašykite į failą Answer_1.csv
 
 #2 Nuskaitykite duomeniš failų Safardi.txt ir Ashkenazi.txt iškoduokite simbolius ir
