@@ -1,3 +1,6 @@
+#Failą pavadinkite Darbas.py, atliktas užuotis užkomentuokite, pirmoje eilutėje nurodykite savo vardą
+#
+#
 #1 Nuskaitykite duomeniš failo Animals.csv
 #Jeigu gyvūnas yra tyras pakewiskite Amount į 17, jeigu ne 2
 #Atsakymą įrašykite į failą Answer_1.csv
@@ -23,4 +26,6 @@ vietoves = [
     (b'Marijampol\xc4\x97', 3800), 
     (b'Jonava', 500)
 ]
-#sukurkite naują sąrašą į kurį įtraukti tik vietovardžiai su lietuviškais rašmenimis liet_vietoves
+#sukurkite naują sąrašą į kurį įtraukti tik vietovardžiai su lietuviškais rašmenimis ir žuvusiųkų kiekis
+liet_vietoves = []
+#Įrašus sąraše atspausdinkite, kiekviena iš naujos eilutės
