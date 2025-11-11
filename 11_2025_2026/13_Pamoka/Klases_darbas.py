@@ -5,8 +5,11 @@
 #Jeigu gyvūnas yra tyras pakewiskite Amount į 14, jeigu ne 2
 #Atsakymą įrašykite į failą Answer_1.csv
 
-#2 Nuskaitykite duomeniš failų Safardi.txt ir Ashkenazi.txt iškoduokite simbolius ir
+#2 Nuskaitykite duomeniš sąrašų iškoduokite simbolius ir
 #abiejų sąrašų duomenis irašykite į failą Rabbi.txt
+
+
+
 
 #3 Duotas Holokausto lietuvoje vietovardsąrašas
 vietoves = [
