@@ -31,7 +31,7 @@ vietoves = [
     (b'Paneriai (Vilnius)', 70000, 0),
     (b'Kauno Devintas fortas', 50000, 0),
     (b'Kauno VII fortas', 3000, 0),
-    (b'Kauno geto likvidavimas', 10000), 
+    (b'Kauno geto likvidavimas', 10000, 0), 
     (b'\xc5\xa0iauli\xc5\xb3 geto likvidavimas', 8000, 1),
     (b'K\xc4\x97dainiai', 2000, 1),
     (b'Plung\xc4\x97', 1800, 1),
