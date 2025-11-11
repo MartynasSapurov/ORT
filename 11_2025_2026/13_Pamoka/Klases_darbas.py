@@ -6,7 +6,7 @@
 #Atsakymą įrašykite į failą Answer_1.csv
 
 #2 Nuskaitykite duomeniš sąrašų iškoduokite simbolius ir
-#abiejų sąrašų duomenis irašykite į failą Rabbi.txt
+#abiejų sąrašų duomenis atspausdinkite
 
 aschkenazi =[
     b'\xd7\xa8\xd7\xa9\xd7\xb4\xd7\x99 (\xd7\xa8\xd7\x91\xd7\x99 \xd7\xa9\xd7\x9c\xd7\x9e\xd7\x94 \xd7\x99\xd7\xa6\xd7\x97\xd7\xa7\xd7\x99)',
