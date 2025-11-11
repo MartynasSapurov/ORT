@@ -1,0 +1,41 @@
+Animal,Pure/Not Pure,Amount
+Sheep,Pure,0
+Goat,Pure,0
+Cow,Pure,0
+Ox,Pure,0
+Deer,Pure,0
+Antelope,Pure,0
+Gazelle,Pure,0
+Ram,Pure,0
+Pigeon,Pure,0
+Dove,Pure,0
+Chicken,Pure,0
+Duck,Pure,0
+Goose,Pure,0
+Sparrow,Pure,0
+Quail,Pure,0
+Turkey,Pure,0
+Camel,Not Pure,0
+Donkey,Not Pure,0
+Horse,Not Pure,0
+Pig,Not Pure,0
+Dog,Not Pure,0
+Wolf,Not Pure,0
+Lion,Not Pure,0
+Tiger,Not Pure,0
+Bear,Not Pure,0
+Fox,Not Pure,0
+Leopard,Not Pure,0
+Cheetah,Not Pure,0
+Hyena,Not Pure,0
+Elephant,Not Pure,0
+Giraffe,Not Pure,0
+Zebra,Not Pure,0
+Rhinoceros,Not Pure,0
+Hippopotamus,Not Pure,0
+Kangaroo,Not Pure,0
+Monkey,Not Pure,0
+Eagle,Not Pure,0
+Hawk,Not Pure,0
+Owl,Not Pure,0
+Vulture,Not Pure,0
