@@ -61,3 +61,6 @@ while True:
     test = tikrinimas()
     if test:
         break
+        
+a = 3.50999
+print(f"{a:.2f}")
