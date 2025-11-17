@@ -33,7 +33,7 @@ def tikrinimas():
 
 print(tikrinimas())
 """
-
+"""
 def dviem_daugiau(x, y):
     x+=2
     y+=2
@@ -41,7 +41,23 @@ def dviem_daugiau(x, y):
 
 a, b = dviem_daugiau(1, 2)
 print(a, b)
-
+"""
 #Parašykite programą kuri prašytų jūsų įvesti skaičių tol kol bus įvestas skaitmuo, jeigu įvedamas tekstas
 #prašo įvesti skaičių dar kartą, naudokite vieną funkciją skaičiaus įvcedimui ir tikrinimui
 
+def tikrinimas():
+    if input("Įveskite skaičių\n").isdigit():
+        return True
+    else:
+        return False
+"""    
+test = False
+
+while not test:
+    test = tikrinimas()
+"""
+
+while True:
+    test = tikrinimas()
+    if test:
+        break
