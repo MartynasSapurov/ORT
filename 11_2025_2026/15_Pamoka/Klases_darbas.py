@@ -47,3 +47,9 @@ except:
 my_list = list(map(int, input().split()))
 my_list = [int(item) for item in input().split()]
 print(my_list)
+
+n = int(input())
+my_list = [int(item) for item in input().split()]
+
+for i in range(my_list):
+    print(my_list[i])
