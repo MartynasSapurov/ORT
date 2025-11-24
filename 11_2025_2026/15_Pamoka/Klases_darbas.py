@@ -24,3 +24,6 @@ smile(9)
 for _ in range(5):
     dobilas(7)
 smile(9)
+
+a, b, c = [int(item) for item in input().split()]
+a, b, c = map(int, input().split())
