@@ -44,3 +44,6 @@ try:
 except:
     klaida()
 
+my_list = list(map(int, input().split()))
+my_list = [int(item) for item in input().split()]
+print(my_list)
