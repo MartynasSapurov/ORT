@@ -30,5 +30,5 @@ my_list = list(map(keitimas, my_list))
 print(my_list)
 
 """
-Patobulinkite funkcija, kad visi sąraši skaičių "0" būtų keičiami į "6"
+Patobulinkite funkcija, kad visi sąrašo skaičių skaitmenys lugūs "0" būtų keičiami į "6"
 """
