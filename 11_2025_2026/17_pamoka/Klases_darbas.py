@@ -26,7 +26,7 @@ c = lambda x: x > 75
 print(c(85))
 
 """
-Taikydami lambda funkcija i6rinkite i6 s1ra60 my_list tik simetriškus skaišius
+Taikydami lambda funkcija išrinkite iš sąrašo my_list tik simetriškus skaišius
 """
 
 my_list = [121, 122, 12321, 15551, 174, 5885, 456]
