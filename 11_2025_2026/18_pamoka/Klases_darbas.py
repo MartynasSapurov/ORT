@@ -17,3 +17,7 @@ print(nums2)
 print(nums3)
 
 #Raikydami map funkciją parašykite programą kuri sukurtų jnaują sąrašą, kurio elemtai būtų lygųs visų trijų sąršų elemntų sumai
+
+result = map(lambda f, u, z: f+u+z, nums1, nums2, nums3)
+
+print(list(result))
