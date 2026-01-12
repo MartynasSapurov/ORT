@@ -3,6 +3,8 @@
 my_list = ["Daniel", "Kornėjus", "Augustas", "Maksim", "Natan", "Kajus", "dAniel", "danielius", "Austėja", "Marta", "Bernardas", "Emil"]
 #Taikydami filter ir lambda funkcijas parašykite programną, kuri išrinktu tik moksleivius kurių vardai prasideda raidėmis "D", "d"
 
+print(list(filter(lambda x: x.lower()[0] == "d", my_list)))
+
 #2
 #Duoti trys skaičių sąrašai
 nums1 = [1, 2, 3]
