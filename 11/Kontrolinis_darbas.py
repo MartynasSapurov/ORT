@@ -10,7 +10,7 @@
 [8, 4 , 11, 15, 52, 45, 12]
 
 [1, 17, 25, 45, 11, 12, 13]
-#Taikydami map funkciją sukurkite nauiją sąrašą kurį sudarytų šių sąrašų elementų skirtumai
+#Taikydami map funkciją sukurkite naują sąrašą, kurį sudarytų šių sąrašų elementų skirtumai
 
 #4 Nuskaitykite teksto ilutę, pavyzdžiui
 """
