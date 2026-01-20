@@ -32,7 +32,7 @@ ramuotojai!
 #5 Nuskaitykite vieną teksto teksto eilutę, pavyzdžiui
 "0123456789"
 "0123"
-"6789010"
+"6789012"
 "54301"
 
 #Parašykite programą kuri parašytų ar skaičiai eilutėje eina iš eilės, pavyzdžiui:
