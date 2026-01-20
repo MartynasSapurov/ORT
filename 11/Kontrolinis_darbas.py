@@ -4,7 +4,7 @@
 
 #2 Duotas sąrašas
 [2, 11, 25, 13, 55, 17, 45, 85, 45, 128, 85]
-#Taikydami map if lambda funkcijas sukurkite naują sąrašą kurį sudarytų duotų skaičių vertės padauginos iš 6
+#Taikydami map ir lambda funkcijas sukurkite naują sąrašą kurį sudarytų duotų skaičių vertės padauginos iš 6
 
 #3 Duoti du sąrašai
 [8, 4 , 11, 15, 52, 45, 12]
