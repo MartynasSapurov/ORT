@@ -1,6 +1,6 @@
 #1 Duotas sąrašas 
 [2, 11, 25, 13, 55, 17, 45, 85, 45, 128, 85]
-#Taikydami filter ir lambda funkcijas sukurkite naują sąrašą į kurį patektų til lyginiai skaičiai
+#Taikydami filter ir lambda funkcijas sukurkite naują sąrašą į kurį patektų tik lyginiai skaičiai
 
 #2 Duotas sąrašas
 [2, 11, 25, 13, 55, 17, 45, 85, 45, 128, 85]
