@@ -34,12 +34,45 @@ print(my_list)
 #Segmentų skaičius turi priklausyti nuo eilutės ilgio
 #Rezultat1 5ra6ykite į fsailą Result_3.txt, kiekvienas segmentas spausdinamas iš naujos eilutės
 #Rezultato failo pavyzdys
-
+"""
 my_line = input()
+"""
+"""
 my_list = [item for item in my_line]
-for i in range(len(my_list)):
-    print(f"{i} {my_list[i]}")
+my_line_list = []
+temp_string = ""
 
+for i in range(len(my_list)):
+    temp_string+=my_list[i]
+    print(temp_string)
+    if len(temp_string)>14:
+        my_line_list.append(temp_string)
+        temp_string = ""
+else:
+    if len(temp_string)>0:
+        my_line_list.append(temp_string)
+
+with open('result.txt', 'w', encoding='utf-8') as f:
+    for item in my_line_list:
+        f.write(item+'\n')
+"""
+
+"""
+my_line_list = []
+iterator = 0
+
+while len(my_line[iterator:])>14:
+    my_line_list.append(my_line[iterator:iterator+15])
+    iterator += 15
+else:
+    if len(my_line[iterator:iterator+15])>0:
+        my_line_list.append(my_line[iterator:iterator+15])
+print(my_line_list)
+
+with open('result.txt', 'w', encoding='utf-8') as f:
+    for item in my_line_list:
+        f.write(item+'\n')
+"""
 
 """
 11A ir 11B klas
@@ -49,3 +82,33 @@ o Aleichemo ORT
 gimnazijos prog
 ramuotojai!
 """
+#5 Nuskaitykite vieną teksto teksto eilutę, pavyzdžiui
+"0123456789"
+"0123"
+"6789012"
+"54301"
+
+#Parašykite programą kuri parašytų ar skaičiai eilutėje eina iš eilės, pavyzdžiui:
+"""
+TAIP
+TAIP
+TAIP
+NE
+"""
+ar_is_eiles = True
+
+my_list = list(map(int, input()))
+for i in range(len(my_list)-1):
+    if my_list[i] != 9:
+        if my_list[i+1]-my_list[i] != 1:
+            ar_is_eiles = False
+            break
+    else:
+        if my_list[i+1] != 0:
+            ar_is_eiles = False
+            break
+
+if ar_is_eiles:
+    print("TAIP")
+else:
+    print("NE")
