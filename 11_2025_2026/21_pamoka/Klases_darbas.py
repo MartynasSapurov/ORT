@@ -9,3 +9,8 @@ with open('U1.txt', 'r') as file:
             figuros[i]+=mokinio_figiros[i]
 
 print(figuros)
+
+for i in range(len(mokinio_figiros)):
+    komplektai[i] = figuros[i]//komplektai[i]
+
+print(min(komplektai))
