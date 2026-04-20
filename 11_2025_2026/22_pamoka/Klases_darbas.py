@@ -21,3 +21,5 @@ with open("11AB.csv", mode="r", encoding="utf8", newline="") as AB11_csvfile:
     file_reader = csv.reader(AB11_csvfile)
     for item in file_reader:
         print(item)
+
+#Pasitelkę for cikl1 sugeneruokite atsitiknius duomenis apie 8 klasiokus ir 5ra6ykite CSV formatu
