@@ -18,10 +18,10 @@
 # 5. Parašykite atskirą funkcija kuri paprašytų įvesti žodį ir grąžintų reikšmę, taip pat pritaikykite konstrukcija try, except, kad tokiu atveju, kai žodis nerastas parašytų "Nėra tokio žodži
 
 # Create a dictionary
-my_dict = {'name': 'Alice', 'age': 25}
+my_dict = {'One': 'Vienas', 'Two': "Du"}
 
 # Add a new member
-my_dict['city'] = 'Vilnius'
+my_dict["Three"] = "Trys"
 
 #Darbas su json (JavaScript Object Notation) failais
 import json #Importuojame json biblioteką
