@@ -52,3 +52,7 @@ def mano_funkcija(b):
     return result
 
 print(mano_funkcija(a))
+
+my_dict = {"Lion":"אַרְיֵה", "Lamb": "כֶּבֶשׂ", "Dove":"יוֹנָה"}
+my_dict = {value: key for key, value in my_dict.items()}
+print(my_dict)
