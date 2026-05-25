@@ -16,3 +16,9 @@
 # 4. Sukurkite programą kuri atsidarytų sukurtą json failą iš jo importuotų žodyną ir paklaustų vartotojo iš kurios kalbnos į kurią norėtų versti. 
 # Jeigu pakeičiam kalba atskira funkcija kurios argumentas yra esamas žodynas pasitelkia sąrašų generatoriaus konstrukciją ir grąžina žodyną sukeisdama indeksus su vertėmis.
 # 5. Parašykite atskirą funkcija kuri paprašytų įvesti žodį ir grąžintų reikšmę, taip pat pritaikykite konstrukcija try, except, kad tokiu atveju, kai žodis nerastas parašytų "Nėra tokio žodži
+
+# Create a dictionary
+my_dict = {'name': 'Alice', 'age': 25}
+
+# Add a new member
+my_dict['city'] = 'Vilnius'
