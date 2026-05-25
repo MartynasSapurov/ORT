@@ -44,3 +44,11 @@ print(type(output_data)) #Atspausdiname nuskaitytų duomenų tipą
 string_data = json.dumps(input_data)
 print(string_data) #Atspausdiname konvertuotus duomenis
 print(type(string_data)) #Atspausdiname kobvertuotų duomenų tipą
+
+a = int(input())
+
+def mano_funkcija(b):
+    result = b*b
+    return result
+
+print(mano_funkcija(a))
