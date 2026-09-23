@@ -44,7 +44,7 @@ print(f"dog_2.number_og_feet = {dog_2.number_og_feet}")
 print(f"dog_2.tail = {dog_2.tail}")
 print(f"dog_2.breed = {dog_2.breed}")
 
-***
+"""
 class Dog(object):
   
     def __init__(self, number_of_feet=4, tail = True, name = "Spot"):
@@ -69,4 +69,4 @@ dog_1 = Dog(3, False, "Pies")
 dog_2 = Dog()
 
 print(dog_1.number_of_feet, dog_1.tail, dog_1.name)
-***
+"""
