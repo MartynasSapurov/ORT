@@ -10,6 +10,8 @@ class Dog(object):
         for item in range(1, self.number_of_feet+1):
             print(f"Step om {item} foot")
 
+    def add_foot(self, amount):
+        self.number_of_feet += amount
 
 dog_1 = Dog()
 
@@ -22,7 +24,6 @@ print(dog_2.name)
 print("*"*50)
 
 dog_1.go()
+dog_1.add_foot(4)
 
-***
-Savarnkiškai sukurkite objektą automobilis, jisturi mokėti atlikti ne mažiau, nei 4 skirtingus veiksmus ir turėti nemažiau, nei 8 atribuus. Sukurkite bent 4 šios klasės objektus
-***
+print(dog_1.number_of_feet)
