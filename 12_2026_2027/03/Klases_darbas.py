@@ -1,7 +1,10 @@
+from random import randint as random
+from time import time as time
+
 #Pasitelkę sąrašų generatorių sukurkite 10000 atsitikrinių skaičių nuo 0 iki 99 sąrašą
 my_unsorted_list = [random(0, 99) for i in range(10000)]
 
-my_list_for_sorting = my_unsorted_list
+my_list_for_sorting = my_unsorted_list.copy()
 #Sąrašą surušiuokite ir pasitelkę time biblioteką išmatuokite kiek trunka sąrašo surūšiavimas
 start_time = time()
 my_list_for_sorting.sort()
