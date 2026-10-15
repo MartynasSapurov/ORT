@@ -1,4 +1,5 @@
 my_list=[1, 18, 7 ,48, 10, 14, 15]
+n=len(my_list)
 
 for i in range(n):
     didesnis=False
