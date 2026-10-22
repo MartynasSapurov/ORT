@@ -11,7 +11,7 @@ moksleiviai_list= [["Kornejus", "12A", True], ["Bernardas", "12B", False], ["Emi
 
 print(moksleiviai_list[-1])
 
-
+"""
 
 mokiniai = [shule(moksleiviai_list[i]) for i in range(moksleivi_sk)]
 """
@@ -19,3 +19,14 @@ for i in range(moksleivi_sk)):
     mokiniai.append(shule(moksleiviai_list[i]))
 """
 print(mokiniai[0].vardas)
+
+with open("U1.txt") as file:
+    zaideju_sk = int(file.readline())
+    print(zaideju_sk)
+    my_list=[]
+    for i in range(zaideju_sk):
+        line = list(map(int, file.readline()[:-1].split()))
+        my_list.append(line)
+
+print(my_list)
+"""
