@@ -1,5 +1,5 @@
 class basketball(object):
-    def __init__(self, zaidejo_numeris, pat_1=0, mest_1=0, pat_2=0, mest_2=0, pat_3=0, mest_3=0, suzaista_rungt=0):
+    def __init__(self, zaidejo_numeris, pat_1=0, mest_1=0, pat_2=0, mest_2=0, pat_3=0, mest_3=0):
         self.zaidejo_numeris=zaidejo_numeris
         self.pat_1=pat_1
         self.mest_1=mest_1
@@ -7,7 +7,9 @@ class basketball(object):
         self.mest_2=mest_2
         self.pat_3=pat_3
         self.mest_3=mest_3
-        self.suzaista_rungt=suzaista_rungt
+        self.suzaista_rungt=0
+        self.taskai=0
+        self.pataikymas=0
 
     def statistikos_papildymas(self, metimai):
         self.pat_1+=metimai[0]
@@ -17,9 +19,13 @@ class basketball(object):
         self.pat_3+=metimai[4]
         self.mest_3+=metimai[5]
         self.suzaista_rungt+=1
+    
+    def statistikos_skaiciavimas(self):
+        self.taskai=(self.pat_1+(self.pat_2*2)+(self.pat_3*3))/self.suzaista_rungt
+        self.pataikymas=round(((self.pat_1+self.pat_2+self.pat_3)*100)/(self.mest_1+self.mest_2+self.mest_3), 2)
 
     def spausdinimas(self):
-        print(f"zaidejo_numeris={self.zaidejo_numeris}, suzaista_rungt={self.suzaista_rungt}, pat_1={self.pat_1}, mest_1={self.mest_1}, pat_2={self.pat_2}, mest_2={self.mest_2}, pat_3={self.pat_3}, mest_3={self.mest_3}")
+        print(f"zaidejo_numeris={self.zaidejo_numeris}, suzaista_rungt={self.suzaista_rungt}, taskai={self.taskai}, pataikymas={self.pataikymas}")
 
 with open("U1.txt") as file:
     zaideju_sk = int(file.readline())
@@ -44,6 +50,7 @@ for i in range(len(staistika)):
 
 print(my_list)
 
-for item in staistika:
-    item.spausdinimas()
+for i in range(len(staistika)):
+    staistika[i].statistikos_skaiciavimas()
+    staistika[i].spausdinimas()
 
